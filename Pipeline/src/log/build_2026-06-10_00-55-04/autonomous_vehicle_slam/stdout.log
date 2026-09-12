@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating autonomous_vehicle_slam.egg-info
+writing autonomous_vehicle_slam.egg-info/PKG-INFO
+writing dependency_links to autonomous_vehicle_slam.egg-info/dependency_links.txt
+writing entry points to autonomous_vehicle_slam.egg-info/entry_points.txt
+writing requirements to autonomous_vehicle_slam.egg-info/requires.txt
+writing top-level names to autonomous_vehicle_slam.egg-info/top_level.txt
+writing manifest file 'autonomous_vehicle_slam.egg-info/SOURCES.txt'
+reading manifest file 'autonomous_vehicle_slam.egg-info/SOURCES.txt'
+writing manifest file 'autonomous_vehicle_slam.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/install/autonomous_vehicle_slam/lib/python3.10/site-packages/autonomous-vehicle-slam.egg-link (link to .)
+Installing CarNodeSlam script to /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/install/autonomous_vehicle_slam/lib/autonomous_vehicle_slam
+
+Installed /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/build/autonomous_vehicle_slam
+running symlink_data
+creating /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/install/autonomous_vehicle_slam/share/ament_index
+creating /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/install/autonomous_vehicle_slam/share/ament_index/resource_index
+creating /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/install/autonomous_vehicle_slam/share/ament_index/resource_index/packages
+symbolically linking /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/build/autonomous_vehicle_slam/resource/autonomous_vehicle_slam -> /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/install/autonomous_vehicle_slam/share/ament_index/resource_index/packages
+symbolically linking /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/build/autonomous_vehicle_slam/package.xml -> /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/install/autonomous_vehicle_slam/share/autonomous_vehicle_slam

@@ -1,0 +1,62 @@
+running egg_info
+creating ../../build/autonomous_vehicle_slam/autonomous_vehicle_slam.egg-info
+writing ../../build/autonomous_vehicle_slam/autonomous_vehicle_slam.egg-info/PKG-INFO
+writing dependency_links to ../../build/autonomous_vehicle_slam/autonomous_vehicle_slam.egg-info/dependency_links.txt
+writing entry points to ../../build/autonomous_vehicle_slam/autonomous_vehicle_slam.egg-info/entry_points.txt
+writing requirements to ../../build/autonomous_vehicle_slam/autonomous_vehicle_slam.egg-info/requires.txt
+writing top-level names to ../../build/autonomous_vehicle_slam/autonomous_vehicle_slam.egg-info/top_level.txt
+writing manifest file '../../build/autonomous_vehicle_slam/autonomous_vehicle_slam.egg-info/SOURCES.txt'
+reading manifest file '../../build/autonomous_vehicle_slam/autonomous_vehicle_slam.egg-info/SOURCES.txt'
+writing manifest file '../../build/autonomous_vehicle_slam/autonomous_vehicle_slam.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/build
+creating /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/build/lib
+creating /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/build/lib/autonomous_vehicle_slam
+copying autonomous_vehicle_slam/visualizer.py -> /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/build/lib/autonomous_vehicle_slam
+copying autonomous_vehicle_slam/slam.py -> /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/build/lib/autonomous_vehicle_slam
+copying autonomous_vehicle_slam/mapping.py -> /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/build/lib/autonomous_vehicle_slam
+copying autonomous_vehicle_slam/perception.py -> /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/build/lib/autonomous_vehicle_slam
+copying autonomous_vehicle_slam/firstLapSim.py -> /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/build/lib/autonomous_vehicle_slam
+copying autonomous_vehicle_slam/carNode.py -> /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/build/lib/autonomous_vehicle_slam
+copying autonomous_vehicle_slam/control.py -> /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/build/lib/autonomous_vehicle_slam
+copying autonomous_vehicle_slam/mpc.py -> /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/build/lib/autonomous_vehicle_slam
+copying autonomous_vehicle_slam/__init__.py -> /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/build/lib/autonomous_vehicle_slam
+copying autonomous_vehicle_slam/globalPlanning.py -> /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/build/lib/autonomous_vehicle_slam
+copying autonomous_vehicle_slam/pathPlanning.py -> /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/build/lib/autonomous_vehicle_slam
+running install
+running install_lib
+creating /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/python3.10/site-packages/autonomous_vehicle_slam
+copying /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/build/lib/autonomous_vehicle_slam/visualizer.py -> /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/python3.10/site-packages/autonomous_vehicle_slam
+copying /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/build/lib/autonomous_vehicle_slam/slam.py -> /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/python3.10/site-packages/autonomous_vehicle_slam
+copying /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/build/lib/autonomous_vehicle_slam/mapping.py -> /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/python3.10/site-packages/autonomous_vehicle_slam
+copying /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/build/lib/autonomous_vehicle_slam/perception.py -> /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/python3.10/site-packages/autonomous_vehicle_slam
+copying /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/build/lib/autonomous_vehicle_slam/firstLapSim.py -> /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/python3.10/site-packages/autonomous_vehicle_slam
+copying /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/build/lib/autonomous_vehicle_slam/carNode.py -> /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/python3.10/site-packages/autonomous_vehicle_slam
+copying /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/build/lib/autonomous_vehicle_slam/control.py -> /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/python3.10/site-packages/autonomous_vehicle_slam
+copying /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/build/lib/autonomous_vehicle_slam/mpc.py -> /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/python3.10/site-packages/autonomous_vehicle_slam
+copying /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/build/lib/autonomous_vehicle_slam/__init__.py -> /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/python3.10/site-packages/autonomous_vehicle_slam
+copying /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/build/lib/autonomous_vehicle_slam/globalPlanning.py -> /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/python3.10/site-packages/autonomous_vehicle_slam
+copying /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/build/lib/autonomous_vehicle_slam/pathPlanning.py -> /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/python3.10/site-packages/autonomous_vehicle_slam
+byte-compiling /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/python3.10/site-packages/autonomous_vehicle_slam/visualizer.py to visualizer.cpython-310.pyc
+byte-compiling /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/python3.10/site-packages/autonomous_vehicle_slam/slam.py to slam.cpython-310.pyc
+byte-compiling /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/python3.10/site-packages/autonomous_vehicle_slam/mapping.py to mapping.cpython-310.pyc
+byte-compiling /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/python3.10/site-packages/autonomous_vehicle_slam/perception.py to perception.cpython-310.pyc
+byte-compiling /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/python3.10/site-packages/autonomous_vehicle_slam/firstLapSim.py to firstLapSim.cpython-310.pyc
+byte-compiling /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/python3.10/site-packages/autonomous_vehicle_slam/carNode.py to carNode.cpython-310.pyc
+byte-compiling /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/python3.10/site-packages/autonomous_vehicle_slam/control.py to control.cpython-310.pyc
+byte-compiling /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/python3.10/site-packages/autonomous_vehicle_slam/mpc.py to mpc.cpython-310.pyc
+byte-compiling /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/python3.10/site-packages/autonomous_vehicle_slam/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/python3.10/site-packages/autonomous_vehicle_slam/globalPlanning.py to globalPlanning.cpython-310.pyc
+byte-compiling /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/python3.10/site-packages/autonomous_vehicle_slam/pathPlanning.py to pathPlanning.cpython-310.pyc
+running install_data
+creating /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/share/ament_index
+creating /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/share/ament_index/resource_index
+creating /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/share/ament_index/resource_index/packages
+copying resource/autonomous_vehicle_slam -> /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/share/ament_index/resource_index/packages
+copying package.xml -> /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/share/autonomous_vehicle_slam
+running install_egg_info
+Copying ../../build/autonomous_vehicle_slam/autonomous_vehicle_slam.egg-info to /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/python3.10/site-packages/autonomous_vehicle_slam-0.0.0-py3.10.egg-info
+running install_scripts
+Installing CarNodeSlam script to /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/autonomous_vehicle_slam
+writing list of installed files to '/home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/install.log'

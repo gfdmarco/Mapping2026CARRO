@@ -1,0 +1,20 @@
+[0.416s] Invoking command in '/home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/first_slam': PYTHONPATH=/home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/build/first_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/install/first_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/first_slam build --build-base /home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/build/first_slam/build install --record /home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/build/first_slam/install.log --single-version-externally-managed install_data
+[0.524s] running egg_info
+[0.524s] writing ../../build/first_slam/first_slam.egg-info/PKG-INFO
+[0.524s] writing dependency_links to ../../build/first_slam/first_slam.egg-info/dependency_links.txt
+[0.524s] writing entry points to ../../build/first_slam/first_slam.egg-info/entry_points.txt
+[0.524s] writing requirements to ../../build/first_slam/first_slam.egg-info/requires.txt
+[0.524s] writing top-level names to ../../build/first_slam/first_slam.egg-info/top_level.txt
+[0.525s] reading manifest file '../../build/first_slam/first_slam.egg-info/SOURCES.txt'
+[0.525s] writing manifest file '../../build/first_slam/first_slam.egg-info/SOURCES.txt'
+[0.525s] running build
+[0.525s] running build_py
+[0.525s] running install
+[0.526s] running install_lib
+[0.526s] running install_data
+[0.526s] running install_egg_info
+[0.527s] removing '/home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/install/first_slam/lib/python3.10/site-packages/first_slam-0.0.0-py3.10.egg-info' (and everything under it)
+[0.527s] Copying ../../build/first_slam/first_slam.egg-info to /home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/install/first_slam/lib/python3.10/site-packages/first_slam-0.0.0-py3.10.egg-info
+[0.527s] running install_scripts
+[0.537s] writing list of installed files to '/home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/build/first_slam/install.log'
+[0.550s] Invoked command in '/home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/first_slam' returned '0': PYTHONPATH=/home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/build/first_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/install/first_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/first_slam build --build-base /home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/build/first_slam/build install --record /home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/build/first_slam/install.log --single-version-externally-managed install_data

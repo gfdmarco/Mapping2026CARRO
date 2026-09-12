@@ -1,0 +1,2 @@
+[console_scripts]
+CarNode = autonomous_vehicle.carNode:main

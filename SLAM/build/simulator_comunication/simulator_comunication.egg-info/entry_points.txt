@@ -1,0 +1,2 @@
+[console_scripts]
+fsdsNode = simulator_comunication.main:main

@@ -1,0 +1,21 @@
+[0.684s] Invoking command in '/home/demarco/Mapping2026/SLAM/SLAM/src/simulator_comunication': PYTHONPATH=/home/demarco/Mapping2026/SLAM/build/simulator_comunication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/demarco/Mapping2026/SLAM/install/simulator_comunication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/simulator_comunication build --build-base /home/demarco/Mapping2026/SLAM/build/simulator_comunication/build install --record /home/demarco/Mapping2026/SLAM/build/simulator_comunication/install.log --install-scripts $base/lib/simulator_comunication --single-version-externally-managed install_data
+[0.856s] running egg_info
+[0.866s] writing ../../../build/simulator_comunication/simulator_comunication.egg-info/PKG-INFO
+[0.866s] writing dependency_links to ../../../build/simulator_comunication/simulator_comunication.egg-info/dependency_links.txt
+[0.866s] writing entry points to ../../../build/simulator_comunication/simulator_comunication.egg-info/entry_points.txt
+[0.867s] writing requirements to ../../../build/simulator_comunication/simulator_comunication.egg-info/requires.txt
+[0.867s] writing top-level names to ../../../build/simulator_comunication/simulator_comunication.egg-info/top_level.txt
+[0.886s] reading manifest file '../../../build/simulator_comunication/simulator_comunication.egg-info/SOURCES.txt'
+[0.887s] writing manifest file '../../../build/simulator_comunication/simulator_comunication.egg-info/SOURCES.txt'
+[0.887s] running build
+[0.887s] running build_py
+[0.888s] running install
+[0.890s] running install_lib
+[0.901s] running install_data
+[0.902s] running install_egg_info
+[0.913s] removing '/home/demarco/Mapping2026/SLAM/install/simulator_comunication/lib/python3.10/site-packages/simulator_comunication-0.0.0-py3.10.egg-info' (and everything under it)
+[0.913s] Copying ../../../build/simulator_comunication/simulator_comunication.egg-info to /home/demarco/Mapping2026/SLAM/install/simulator_comunication/lib/python3.10/site-packages/simulator_comunication-0.0.0-py3.10.egg-info
+[0.914s] running install_scripts
+[0.989s] Installing fsdsNode script to /home/demarco/Mapping2026/SLAM/install/simulator_comunication/lib/simulator_comunication
+[0.989s] writing list of installed files to '/home/demarco/Mapping2026/SLAM/build/simulator_comunication/install.log'
+[1.014s] Invoked command in '/home/demarco/Mapping2026/SLAM/SLAM/src/simulator_comunication' returned '0': PYTHONPATH=/home/demarco/Mapping2026/SLAM/build/simulator_comunication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/demarco/Mapping2026/SLAM/install/simulator_comunication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/simulator_comunication build --build-base /home/demarco/Mapping2026/SLAM/build/simulator_comunication/build install --record /home/demarco/Mapping2026/SLAM/build/simulator_comunication/install.log --install-scripts $base/lib/simulator_comunication --single-version-externally-managed install_data

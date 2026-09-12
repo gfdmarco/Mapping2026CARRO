@@ -1,0 +1,19 @@
+[0.704s] Invoking command in '/home/demarco/Mapping2026/SLAM/SLAM/src/first_slam': PYTHONPATH=/home/demarco/Mapping2026/SLAM/build/first_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/demarco/Mapping2026/SLAM/install/first_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/first_slam build --build-base /home/demarco/Mapping2026/SLAM/build/first_slam/build install --record /home/demarco/Mapping2026/SLAM/build/first_slam/install.log --install-scripts $base/lib/first_slam --single-version-externally-managed install_data
+[0.887s] running egg_info
+[0.895s] writing ../../../build/first_slam/first_slam.egg-info/PKG-INFO
+[0.896s] writing dependency_links to ../../../build/first_slam/first_slam.egg-info/dependency_links.txt
+[0.896s] writing requirements to ../../../build/first_slam/first_slam.egg-info/requires.txt
+[0.896s] writing top-level names to ../../../build/first_slam/first_slam.egg-info/top_level.txt
+[0.914s] reading manifest file '../../../build/first_slam/first_slam.egg-info/SOURCES.txt'
+[0.915s] writing manifest file '../../../build/first_slam/first_slam.egg-info/SOURCES.txt'
+[0.915s] running build
+[0.915s] running build_py
+[0.916s] running install
+[0.918s] running install_lib
+[0.927s] running install_data
+[0.927s] running install_egg_info
+[0.938s] removing '/home/demarco/Mapping2026/SLAM/install/first_slam/lib/python3.10/site-packages/first_slam-0.0.0-py3.10.egg-info' (and everything under it)
+[0.938s] Copying ../../../build/first_slam/first_slam.egg-info to /home/demarco/Mapping2026/SLAM/install/first_slam/lib/python3.10/site-packages/first_slam-0.0.0-py3.10.egg-info
+[0.938s] running install_scripts
+[1.014s] writing list of installed files to '/home/demarco/Mapping2026/SLAM/build/first_slam/install.log'
+[1.036s] Invoked command in '/home/demarco/Mapping2026/SLAM/SLAM/src/first_slam' returned '0': PYTHONPATH=/home/demarco/Mapping2026/SLAM/build/first_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/demarco/Mapping2026/SLAM/install/first_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/first_slam build --build-base /home/demarco/Mapping2026/SLAM/build/first_slam/build install --record /home/demarco/Mapping2026/SLAM/build/first_slam/install.log --install-scripts $base/lib/first_slam --single-version-externally-managed install_data

@@ -1,0 +1,21 @@
+[0.413s] Invoking command in '/home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/autonomous_vehicle_slam': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonomous_vehicle_slam build --build-base /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/build install --record /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/install.log --single-version-externally-managed install_data
+[0.524s] running egg_info
+[0.524s] writing ../../build/autonomous_vehicle_slam/autonomous_vehicle_slam.egg-info/PKG-INFO
+[0.524s] writing dependency_links to ../../build/autonomous_vehicle_slam/autonomous_vehicle_slam.egg-info/dependency_links.txt
+[0.524s] writing entry points to ../../build/autonomous_vehicle_slam/autonomous_vehicle_slam.egg-info/entry_points.txt
+[0.524s] writing requirements to ../../build/autonomous_vehicle_slam/autonomous_vehicle_slam.egg-info/requires.txt
+[0.524s] writing top-level names to ../../build/autonomous_vehicle_slam/autonomous_vehicle_slam.egg-info/top_level.txt
+[0.526s] reading manifest file '../../build/autonomous_vehicle_slam/autonomous_vehicle_slam.egg-info/SOURCES.txt'
+[0.526s] writing manifest file '../../build/autonomous_vehicle_slam/autonomous_vehicle_slam.egg-info/SOURCES.txt'
+[0.526s] running build
+[0.526s] running build_py
+[0.527s] running install
+[0.527s] running install_lib
+[0.528s] running install_data
+[0.528s] running install_egg_info
+[0.529s] removing '/home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/python3.10/site-packages/autonomous_vehicle_slam-0.0.0-py3.10.egg-info' (and everything under it)
+[0.529s] Copying ../../build/autonomous_vehicle_slam/autonomous_vehicle_slam.egg-info to /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/python3.10/site-packages/autonomous_vehicle_slam-0.0.0-py3.10.egg-info
+[0.529s] running install_scripts
+[0.540s] Installing CarNodeSlam script to /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/autonomous_vehicle_slam
+[0.540s] writing list of installed files to '/home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/install.log'
+[0.559s] Invoked command in '/home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/autonomous_vehicle_slam' returned '0': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/install/autonomous_vehicle_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonomous_vehicle_slam build --build-base /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/build install --record /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/build/autonomous_vehicle_slam/install.log --single-version-externally-managed install_data

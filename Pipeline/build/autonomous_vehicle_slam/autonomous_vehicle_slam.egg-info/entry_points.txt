@@ -1,0 +1,2 @@
+[console_scripts]
+CarNodeSlam = autonomous_vehicle_slam.carNode:main

@@ -1,0 +1,202 @@
+[0.068s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.068s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7c73f4a57850>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c73f4a572e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c73f4a572e0>>, mixin_verb=('build',))
+[0.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.095s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/demarco/Mapping2026/SLAM'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM) by extension 'ros'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM) by extensions ['cmake', 'python']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM) by extension 'cmake'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM) by extension 'python'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM) by extensions ['python_setup_py']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM) by extension 'python_setup_py'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/build) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/build) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/build) ignored
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/install) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/install) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/install) ignored
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/log) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/log) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/log) ignored
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src) by extension 'ignore_ament_install'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src) by extensions ['colcon_pkg']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src) by extension 'colcon_pkg'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src) by extensions ['colcon_meta']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src) by extension 'colcon_meta'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src) by extension 'ros'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src) by extensions ['cmake', 'python']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src) by extension 'cmake'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src) by extension 'python'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src) by extensions ['python_setup_py']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src) by extension 'python_setup_py'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src/first_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src/first_slam) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src/first_slam) by extension 'ignore_ament_install'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src/first_slam) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src/first_slam) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src/first_slam) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src/first_slam) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src/first_slam) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src/first_slam) by extension 'ros'
+[0.119s] DEBUG:colcon.colcon_core.package_identification:Package 'SLAM/src/first_slam' with type 'ros.ament_python' and name 'first_slam'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src/simulator_comunication) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src/simulator_comunication) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src/simulator_comunication) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src/simulator_comunication) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src/simulator_comunication) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src/simulator_comunication) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src/simulator_comunication) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src/simulator_comunication) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(SLAM/src/simulator_comunication) by extension 'ros'
+[0.120s] DEBUG:colcon.colcon_core.package_identification:Package 'SLAM/src/simulator_comunication' with type 'ros.ament_python' and name 'simulator_comunication'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.135s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/demarco/Mapping2026/SLAM/install
+[0.136s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 275 installed packages in /opt/ros/humble
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'first_slam' build argument 'cmake_args' from command line to 'None'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'first_slam' build argument 'cmake_target' from command line to 'None'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'first_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'first_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'first_slam' build argument 'cmake_clean_first' from command line to 'False'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'first_slam' build argument 'cmake_force_configure' from command line to 'False'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'first_slam' build argument 'ament_cmake_args' from command line to 'None'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'first_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'first_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.166s] DEBUG:colcon.colcon_core.verb:Building package 'first_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/demarco/Mapping2026/SLAM/build/first_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/demarco/Mapping2026/SLAM/install/first_slam', 'merge_install': False, 'path': '/home/demarco/Mapping2026/SLAM/SLAM/src/first_slam', 'symlink_install': False, 'test_result_base': None}
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'simulator_comunication' build argument 'cmake_args' from command line to 'None'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'simulator_comunication' build argument 'cmake_target' from command line to 'None'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'simulator_comunication' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'simulator_comunication' build argument 'cmake_clean_cache' from command line to 'False'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'simulator_comunication' build argument 'cmake_clean_first' from command line to 'False'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'simulator_comunication' build argument 'cmake_force_configure' from command line to 'False'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'simulator_comunication' build argument 'ament_cmake_args' from command line to 'None'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'simulator_comunication' build argument 'catkin_cmake_args' from command line to 'None'
+[0.167s] Level 5:colcon.colcon_core.verb:set package 'simulator_comunication' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.167s] DEBUG:colcon.colcon_core.verb:Building package 'simulator_comunication' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/demarco/Mapping2026/SLAM/build/simulator_comunication', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/demarco/Mapping2026/SLAM/install/simulator_comunication', 'merge_install': False, 'path': '/home/demarco/Mapping2026/SLAM/SLAM/src/simulator_comunication', 'symlink_install': False, 'test_result_base': None}
+[0.167s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.167s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.168s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/demarco/Mapping2026/SLAM/SLAM/src/first_slam' with build type 'ament_python'
+[0.168s] Level 1:colcon.colcon_core.shell:create_environment_hook('first_slam', 'ament_prefix_path')
+[0.169s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/demarco/Mapping2026/SLAM/install/first_slam/share/first_slam/hook/ament_prefix_path.ps1'
+[0.169s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/demarco/Mapping2026/SLAM/install/first_slam/share/first_slam/hook/ament_prefix_path.dsv'
+[0.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/demarco/Mapping2026/SLAM/install/first_slam/share/first_slam/hook/ament_prefix_path.sh'
+[0.170s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.171s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.172s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/demarco/Mapping2026/SLAM/SLAM/src/simulator_comunication' with build type 'ament_python'
+[0.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('simulator_comunication', 'ament_prefix_path')
+[0.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/demarco/Mapping2026/SLAM/install/simulator_comunication/share/simulator_comunication/hook/ament_prefix_path.ps1'
+[0.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/demarco/Mapping2026/SLAM/install/simulator_comunication/share/simulator_comunication/hook/ament_prefix_path.dsv'
+[0.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/demarco/Mapping2026/SLAM/install/simulator_comunication/share/simulator_comunication/hook/ament_prefix_path.sh'
+[0.174s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.174s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.319s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/demarco/Mapping2026/SLAM/SLAM/src/first_slam'
+[0.320s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.320s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.468s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/demarco/Mapping2026/SLAM/SLAM/src/simulator_comunication'
+[0.468s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.468s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.830s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: bdist_wheel, check, clean, build_ext, install_headers, saveopts, build_clib, bdist_rpm, develop, bdist, alias, setopt, build_scripts, bdist_dumb, sdist, install, editable_wheel, egg_info, install_lib, rotate, dist_info, bdist_egg, install_egg_info, symlink_data, easy_install, build_py, build, install_scripts, install_data
+[0.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/demarco/Mapping2026/SLAM/SLAM/src/simulator_comunication': PYTHONPATH=/home/demarco/Mapping2026/SLAM/build/simulator_comunication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/demarco/Mapping2026/SLAM/install/simulator_comunication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/simulator_comunication build --build-base /home/demarco/Mapping2026/SLAM/build/simulator_comunication/build install --record /home/demarco/Mapping2026/SLAM/build/simulator_comunication/install.log --install-scripts $base/lib/simulator_comunication --single-version-externally-managed install_data
+[0.885s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: bdist_wheel, check, clean, build_ext, install_headers, saveopts, build_clib, bdist_rpm, develop, bdist, alias, setopt, build_scripts, bdist_dumb, sdist, install, editable_wheel, egg_info, install_lib, rotate, dist_info, bdist_egg, install_egg_info, symlink_data, easy_install, build_py, build, install_scripts, install_data
+[0.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/demarco/Mapping2026/SLAM/SLAM/src/first_slam': PYTHONPATH=/home/demarco/Mapping2026/SLAM/build/first_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/demarco/Mapping2026/SLAM/install/first_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/first_slam build --build-base /home/demarco/Mapping2026/SLAM/build/first_slam/build install --record /home/demarco/Mapping2026/SLAM/build/first_slam/install.log --install-scripts $base/lib/first_slam --single-version-externally-managed install_data
+[1.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/demarco/Mapping2026/SLAM/SLAM/src/simulator_comunication' returned '0': PYTHONPATH=/home/demarco/Mapping2026/SLAM/build/simulator_comunication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/demarco/Mapping2026/SLAM/install/simulator_comunication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/simulator_comunication build --build-base /home/demarco/Mapping2026/SLAM/build/simulator_comunication/build install --record /home/demarco/Mapping2026/SLAM/build/simulator_comunication/install.log --install-scripts $base/lib/simulator_comunication --single-version-externally-managed install_data
+[1.153s] Level 1:colcon.colcon_core.environment:checking '/home/demarco/Mapping2026/SLAM/install/simulator_comunication' for CMake module files
+[1.153s] Level 1:colcon.colcon_core.environment:checking '/home/demarco/Mapping2026/SLAM/install/simulator_comunication' for CMake config files
+[1.154s] Level 1:colcon.colcon_core.environment:checking '/home/demarco/Mapping2026/SLAM/install/simulator_comunication/lib'
+[1.154s] Level 1:colcon.colcon_core.environment:checking '/home/demarco/Mapping2026/SLAM/install/simulator_comunication/bin'
+[1.154s] Level 1:colcon.colcon_core.environment:checking '/home/demarco/Mapping2026/SLAM/install/simulator_comunication/lib/pkgconfig/simulator_comunication.pc'
+[1.154s] Level 1:colcon.colcon_core.environment:checking '/home/demarco/Mapping2026/SLAM/install/simulator_comunication/lib/python3.10/site-packages'
+[1.154s] Level 1:colcon.colcon_core.shell:create_environment_hook('simulator_comunication', 'pythonpath')
+[1.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/demarco/Mapping2026/SLAM/install/simulator_comunication/share/simulator_comunication/hook/pythonpath.ps1'
+[1.154s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/demarco/Mapping2026/SLAM/install/simulator_comunication/share/simulator_comunication/hook/pythonpath.dsv'
+[1.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/demarco/Mapping2026/SLAM/install/simulator_comunication/share/simulator_comunication/hook/pythonpath.sh'
+[1.155s] Level 1:colcon.colcon_core.environment:checking '/home/demarco/Mapping2026/SLAM/install/simulator_comunication/bin'
+[1.155s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simulator_comunication)
+[1.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/demarco/Mapping2026/SLAM/install/simulator_comunication/share/simulator_comunication/package.ps1'
+[1.156s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/demarco/Mapping2026/SLAM/install/simulator_comunication/share/simulator_comunication/package.dsv'
+[1.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/demarco/Mapping2026/SLAM/install/simulator_comunication/share/simulator_comunication/package.sh'
+[1.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/demarco/Mapping2026/SLAM/install/simulator_comunication/share/simulator_comunication/package.bash'
+[1.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/demarco/Mapping2026/SLAM/install/simulator_comunication/share/simulator_comunication/package.zsh'
+[1.158s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/demarco/Mapping2026/SLAM/install/simulator_comunication/share/colcon-core/packages/simulator_comunication)
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/demarco/Mapping2026/SLAM/install/first_slam' for CMake module files
+[1.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/demarco/Mapping2026/SLAM/SLAM/src/first_slam' returned '0': PYTHONPATH=/home/demarco/Mapping2026/SLAM/build/first_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/demarco/Mapping2026/SLAM/install/first_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/first_slam build --build-base /home/demarco/Mapping2026/SLAM/build/first_slam/build install --record /home/demarco/Mapping2026/SLAM/build/first_slam/install.log --install-scripts $base/lib/first_slam --single-version-externally-managed install_data
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/demarco/Mapping2026/SLAM/install/first_slam' for CMake config files
+[1.198s] Level 1:colcon.colcon_core.environment:checking '/home/demarco/Mapping2026/SLAM/install/first_slam/lib'
+[1.198s] Level 1:colcon.colcon_core.environment:checking '/home/demarco/Mapping2026/SLAM/install/first_slam/bin'
+[1.198s] Level 1:colcon.colcon_core.environment:checking '/home/demarco/Mapping2026/SLAM/install/first_slam/lib/pkgconfig/first_slam.pc'
+[1.198s] Level 1:colcon.colcon_core.environment:checking '/home/demarco/Mapping2026/SLAM/install/first_slam/lib/python3.10/site-packages'
+[1.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('first_slam', 'pythonpath')
+[1.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/demarco/Mapping2026/SLAM/install/first_slam/share/first_slam/hook/pythonpath.ps1'
+[1.198s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/demarco/Mapping2026/SLAM/install/first_slam/share/first_slam/hook/pythonpath.dsv'
+[1.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/demarco/Mapping2026/SLAM/install/first_slam/share/first_slam/hook/pythonpath.sh'
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/home/demarco/Mapping2026/SLAM/install/first_slam/bin'
+[1.199s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(first_slam)
+[1.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/demarco/Mapping2026/SLAM/install/first_slam/share/first_slam/package.ps1'
+[1.200s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/demarco/Mapping2026/SLAM/install/first_slam/share/first_slam/package.dsv'
+[1.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/demarco/Mapping2026/SLAM/install/first_slam/share/first_slam/package.sh'
+[1.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/demarco/Mapping2026/SLAM/install/first_slam/share/first_slam/package.bash'
+[1.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/demarco/Mapping2026/SLAM/install/first_slam/share/first_slam/package.zsh'
+[1.200s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/demarco/Mapping2026/SLAM/install/first_slam/share/colcon-core/packages/first_slam)
+[1.201s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.201s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.201s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.201s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.204s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.204s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.204s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.211s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.212s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/demarco/Mapping2026/SLAM/install/local_setup.ps1'
+[1.212s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/demarco/Mapping2026/SLAM/install/_local_setup_util_ps1.py'
+[1.213s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/demarco/Mapping2026/SLAM/install/setup.ps1'
+[1.214s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/demarco/Mapping2026/SLAM/install/local_setup.sh'
+[1.214s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/demarco/Mapping2026/SLAM/install/_local_setup_util_sh.py'
+[1.214s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/demarco/Mapping2026/SLAM/install/setup.sh'
+[1.215s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/demarco/Mapping2026/SLAM/install/local_setup.bash'
+[1.215s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/demarco/Mapping2026/SLAM/install/setup.bash'
+[1.216s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/demarco/Mapping2026/SLAM/install/local_setup.zsh'
+[1.216s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/demarco/Mapping2026/SLAM/install/setup.zsh'

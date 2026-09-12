@@ -1,0 +1,6 @@
+source;share/simulator_comunication/hook/pythonpath.ps1
+source;share/simulator_comunication/hook/pythonpath.dsv
+source;share/simulator_comunication/hook/pythonpath.sh
+source;share/simulator_comunication/hook/ament_prefix_path.ps1
+source;share/simulator_comunication/hook/ament_prefix_path.dsv
+source;share/simulator_comunication/hook/ament_prefix_path.sh

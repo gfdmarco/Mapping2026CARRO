@@ -1,0 +1,24 @@
+[0.380s] Invoking command in '/home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/build/autonomous_vehicle': PYTHONPATH=/home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/build/autonomous_vehicle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/install/autonomous_vehicle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/build/autonomous_vehicle/build --no-deps symlink_data
+[0.500s] running develop
+[0.578s] running egg_info
+[0.578s] creating autonomous_vehicle.egg-info
+[0.578s] writing autonomous_vehicle.egg-info/PKG-INFO
+[0.579s] writing dependency_links to autonomous_vehicle.egg-info/dependency_links.txt
+[0.579s] writing entry points to autonomous_vehicle.egg-info/entry_points.txt
+[0.579s] writing requirements to autonomous_vehicle.egg-info/requires.txt
+[0.579s] writing top-level names to autonomous_vehicle.egg-info/top_level.txt
+[0.579s] writing manifest file 'autonomous_vehicle.egg-info/SOURCES.txt'
+[0.579s] reading manifest file 'autonomous_vehicle.egg-info/SOURCES.txt'
+[0.580s] writing manifest file 'autonomous_vehicle.egg-info/SOURCES.txt'
+[0.580s] running build_ext
+[0.580s] Creating /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/install/autonomous_vehicle/lib/python3.10/site-packages/autonomous-vehicle.egg-link (link to .)
+[0.581s] Installing CarNode script to /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/install/autonomous_vehicle/lib/autonomous_vehicle
+[0.581s] 
+[0.581s] Installed /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/build/autonomous_vehicle
+[0.581s] running symlink_data
+[0.581s] creating /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/install/autonomous_vehicle/share/ament_index
+[0.581s] creating /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/install/autonomous_vehicle/share/ament_index/resource_index
+[0.581s] creating /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/install/autonomous_vehicle/share/ament_index/resource_index/packages
+[0.581s] symbolically linking /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/build/autonomous_vehicle/resource/autonomous_vehicle -> /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/install/autonomous_vehicle/share/ament_index/resource_index/packages
+[0.581s] symbolically linking /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/build/autonomous_vehicle/package.xml -> /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/install/autonomous_vehicle/share/autonomous_vehicle
+[0.597s] Invoked command in '/home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/build/autonomous_vehicle' returned '0': PYTHONPATH=/home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/build/autonomous_vehicle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/install/autonomous_vehicle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/felipe_capovilla/Documents/E-Racing/FSDS/Codes/Oficial/Pipeline/src/build/autonomous_vehicle/build --no-deps symlink_data

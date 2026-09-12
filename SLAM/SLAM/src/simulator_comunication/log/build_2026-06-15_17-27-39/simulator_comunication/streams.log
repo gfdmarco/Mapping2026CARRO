@@ -1,0 +1,37 @@
+[0.258s] Invoking command in '/home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication': PYTHONPATH=/home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication/build/simulator_comunication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication/install/simulator_comunication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/simulator_comunication build --build-base /home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication/build/simulator_comunication/build install --record /home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication/build/simulator_comunication/install.log --single-version-externally-managed install_data
+[0.355s] running egg_info
+[0.355s] creating build/simulator_comunication/simulator_comunication.egg-info
+[0.355s] writing build/simulator_comunication/simulator_comunication.egg-info/PKG-INFO
+[0.355s] writing dependency_links to build/simulator_comunication/simulator_comunication.egg-info/dependency_links.txt
+[0.355s] writing entry points to build/simulator_comunication/simulator_comunication.egg-info/entry_points.txt
+[0.355s] writing requirements to build/simulator_comunication/simulator_comunication.egg-info/requires.txt
+[0.355s] writing top-level names to build/simulator_comunication/simulator_comunication.egg-info/top_level.txt
+[0.355s] writing manifest file 'build/simulator_comunication/simulator_comunication.egg-info/SOURCES.txt'
+[0.356s] reading manifest file 'build/simulator_comunication/simulator_comunication.egg-info/SOURCES.txt'
+[0.356s] writing manifest file 'build/simulator_comunication/simulator_comunication.egg-info/SOURCES.txt'
+[0.356s] running build
+[0.356s] running build_py
+[0.356s] creating /home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication/build/simulator_comunication/build
+[0.356s] creating /home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication/build/simulator_comunication/build/lib
+[0.356s] creating /home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication/build/simulator_comunication/build/lib/simulator_comunication
+[0.356s] copying simulator_comunication/main.py -> /home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication/build/simulator_comunication/build/lib/simulator_comunication
+[0.356s] copying simulator_comunication/__init__.py -> /home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication/build/simulator_comunication/build/lib/simulator_comunication
+[0.356s] running install
+[0.356s] running install_lib
+[0.357s] creating /home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication/install/simulator_comunication/lib/python3.10/site-packages/simulator_comunication
+[0.357s] copying /home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication/build/simulator_comunication/build/lib/simulator_comunication/main.py -> /home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication/install/simulator_comunication/lib/python3.10/site-packages/simulator_comunication
+[0.357s] copying /home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication/build/simulator_comunication/build/lib/simulator_comunication/__init__.py -> /home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication/install/simulator_comunication/lib/python3.10/site-packages/simulator_comunication
+[0.357s] byte-compiling /home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication/install/simulator_comunication/lib/python3.10/site-packages/simulator_comunication/main.py to main.cpython-310.pyc
+[0.358s] byte-compiling /home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication/install/simulator_comunication/lib/python3.10/site-packages/simulator_comunication/__init__.py to __init__.cpython-310.pyc
+[0.358s] running install_data
+[0.358s] creating /home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication/install/simulator_comunication/share/ament_index
+[0.358s] creating /home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication/install/simulator_comunication/share/ament_index/resource_index
+[0.358s] creating /home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication/install/simulator_comunication/share/ament_index/resource_index/packages
+[0.358s] copying resource/simulator_comunication -> /home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication/install/simulator_comunication/share/ament_index/resource_index/packages
+[0.358s] copying package.xml -> /home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication/install/simulator_comunication/share/simulator_comunication
+[0.358s] running install_egg_info
+[0.359s] Copying build/simulator_comunication/simulator_comunication.egg-info to /home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication/install/simulator_comunication/lib/python3.10/site-packages/simulator_comunication-0.0.0-py3.10.egg-info
+[0.359s] running install_scripts
+[0.367s] Installing fsdsNode script to /home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication/install/simulator_comunication/lib/simulator_comunication
+[0.368s] writing list of installed files to '/home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication/build/simulator_comunication/install.log'
+[0.377s] Invoked command in '/home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication' returned '0': PYTHONPATH=/home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication/build/simulator_comunication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication/install/simulator_comunication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/simulator_comunication build --build-base /home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication/build/simulator_comunication/build install --record /home/felipe_capovilla/Documents/E-Racing/Mapping/SLAM/src/simulator_comunication/build/simulator_comunication/install.log --single-version-externally-managed install_data

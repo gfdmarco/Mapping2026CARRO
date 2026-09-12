@@ -1,0 +1,22 @@
+[0.817s] Invoking command in '/home/demarco/Mapping2026/Pipeline/src/autonomous_vehicle': PYTHONPATH=/home/demarco/Mapping2026/Pipeline/build/autonomous_vehicle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/demarco/Mapping2026/Pipeline/install/autonomous_vehicle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonomous_vehicle build --build-base /home/demarco/Mapping2026/Pipeline/build/autonomous_vehicle/build install --record /home/demarco/Mapping2026/Pipeline/build/autonomous_vehicle/install.log --install-scripts $base/lib/autonomous_vehicle --single-version-externally-managed install_data
+[1.014s] running egg_info
+[1.032s] writing ../../build/autonomous_vehicle/autonomous_vehicle.egg-info/PKG-INFO
+[1.033s] writing dependency_links to ../../build/autonomous_vehicle/autonomous_vehicle.egg-info/dependency_links.txt
+[1.033s] writing entry points to ../../build/autonomous_vehicle/autonomous_vehicle.egg-info/entry_points.txt
+[1.033s] writing requirements to ../../build/autonomous_vehicle/autonomous_vehicle.egg-info/requires.txt
+[1.033s] writing top-level names to ../../build/autonomous_vehicle/autonomous_vehicle.egg-info/top_level.txt
+[1.056s] reading manifest file '../../build/autonomous_vehicle/autonomous_vehicle.egg-info/SOURCES.txt'
+[1.057s] writing manifest file '../../build/autonomous_vehicle/autonomous_vehicle.egg-info/SOURCES.txt'
+[1.057s] running build
+[1.058s] running build_py
+[1.058s] copying autonomous_vehicle/perception.py -> /home/demarco/Mapping2026/Pipeline/build/autonomous_vehicle/build/lib/autonomous_vehicle
+[1.059s] running install
+[1.062s] running install_lib
+[1.074s] running install_data
+[1.074s] running install_egg_info
+[1.086s] removing '/home/demarco/Mapping2026/Pipeline/install/autonomous_vehicle/lib/python3.10/site-packages/autonomous_vehicle-0.0.0-py3.10.egg-info' (and everything under it)
+[1.086s] Copying ../../build/autonomous_vehicle/autonomous_vehicle.egg-info to /home/demarco/Mapping2026/Pipeline/install/autonomous_vehicle/lib/python3.10/site-packages/autonomous_vehicle-0.0.0-py3.10.egg-info
+[1.087s] running install_scripts
+[1.166s] Installing CarNode script to /home/demarco/Mapping2026/Pipeline/install/autonomous_vehicle/lib/autonomous_vehicle
+[1.166s] writing list of installed files to '/home/demarco/Mapping2026/Pipeline/build/autonomous_vehicle/install.log'
+[1.193s] Invoked command in '/home/demarco/Mapping2026/Pipeline/src/autonomous_vehicle' returned '0': PYTHONPATH=/home/demarco/Mapping2026/Pipeline/build/autonomous_vehicle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/demarco/Mapping2026/Pipeline/install/autonomous_vehicle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonomous_vehicle build --build-base /home/demarco/Mapping2026/Pipeline/build/autonomous_vehicle/build install --record /home/demarco/Mapping2026/Pipeline/build/autonomous_vehicle/install.log --install-scripts $base/lib/autonomous_vehicle --single-version-externally-managed install_data

@@ -1,0 +1,31 @@
+running egg_info
+creating ../../../build/simulator_comunication/simulator_comunication.egg-info
+writing ../../../build/simulator_comunication/simulator_comunication.egg-info/PKG-INFO
+writing dependency_links to ../../../build/simulator_comunication/simulator_comunication.egg-info/dependency_links.txt
+writing entry points to ../../../build/simulator_comunication/simulator_comunication.egg-info/entry_points.txt
+writing requirements to ../../../build/simulator_comunication/simulator_comunication.egg-info/requires.txt
+writing top-level names to ../../../build/simulator_comunication/simulator_comunication.egg-info/top_level.txt
+writing manifest file '../../../build/simulator_comunication/simulator_comunication.egg-info/SOURCES.txt'
+reading manifest file '../../../build/simulator_comunication/simulator_comunication.egg-info/SOURCES.txt'
+writing manifest file '../../../build/simulator_comunication/simulator_comunication.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/demarco/Mapping2026/SLAM/build/simulator_comunication/build/lib/simulator_comunication
+copying simulator_comunication/__init__.py -> /home/demarco/Mapping2026/SLAM/build/simulator_comunication/build/lib/simulator_comunication
+copying simulator_comunication/main.py -> /home/demarco/Mapping2026/SLAM/build/simulator_comunication/build/lib/simulator_comunication
+running install
+running install_lib
+creating /home/demarco/Mapping2026/SLAM/install/simulator_comunication/lib/python3.10/site-packages/simulator_comunication
+copying /home/demarco/Mapping2026/SLAM/build/simulator_comunication/build/lib/simulator_comunication/__init__.py -> /home/demarco/Mapping2026/SLAM/install/simulator_comunication/lib/python3.10/site-packages/simulator_comunication
+copying /home/demarco/Mapping2026/SLAM/build/simulator_comunication/build/lib/simulator_comunication/main.py -> /home/demarco/Mapping2026/SLAM/install/simulator_comunication/lib/python3.10/site-packages/simulator_comunication
+byte-compiling /home/demarco/Mapping2026/SLAM/install/simulator_comunication/lib/python3.10/site-packages/simulator_comunication/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/demarco/Mapping2026/SLAM/install/simulator_comunication/lib/python3.10/site-packages/simulator_comunication/main.py to main.cpython-310.pyc
+running install_data
+creating /home/demarco/Mapping2026/SLAM/install/simulator_comunication/share/ament_index/resource_index/packages
+copying resource/simulator_comunication -> /home/demarco/Mapping2026/SLAM/install/simulator_comunication/share/ament_index/resource_index/packages
+copying package.xml -> /home/demarco/Mapping2026/SLAM/install/simulator_comunication/share/simulator_comunication
+running install_egg_info
+Copying ../../../build/simulator_comunication/simulator_comunication.egg-info to /home/demarco/Mapping2026/SLAM/install/simulator_comunication/lib/python3.10/site-packages/simulator_comunication-0.0.0-py3.10.egg-info
+running install_scripts
+Installing fsdsNode script to /home/demarco/Mapping2026/SLAM/install/simulator_comunication/lib/simulator_comunication
+writing list of installed files to '/home/demarco/Mapping2026/SLAM/build/simulator_comunication/install.log'

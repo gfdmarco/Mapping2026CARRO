@@ -1,0 +1,20 @@
+running egg_info
+writing ../../../build/simulator_comunication/simulator_comunication.egg-info/PKG-INFO
+writing dependency_links to ../../../build/simulator_comunication/simulator_comunication.egg-info/dependency_links.txt
+writing entry points to ../../../build/simulator_comunication/simulator_comunication.egg-info/entry_points.txt
+writing requirements to ../../../build/simulator_comunication/simulator_comunication.egg-info/requires.txt
+writing top-level names to ../../../build/simulator_comunication/simulator_comunication.egg-info/top_level.txt
+reading manifest file '../../../build/simulator_comunication/simulator_comunication.egg-info/SOURCES.txt'
+writing manifest file '../../../build/simulator_comunication/simulator_comunication.egg-info/SOURCES.txt'
+running build
+running build_py
+copying simulator_comunication/main.py -> /home/demarco/Mapping2026/SLAM/build/simulator_comunication/build/lib/simulator_comunication
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/demarco/Mapping2026/SLAM/install/simulator_comunication/lib/python3.10/site-packages/simulator_comunication-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/simulator_comunication/simulator_comunication.egg-info to /home/demarco/Mapping2026/SLAM/install/simulator_comunication/lib/python3.10/site-packages/simulator_comunication-0.0.0-py3.10.egg-info
+running install_scripts
+Installing fsdsNode script to /home/demarco/Mapping2026/SLAM/install/simulator_comunication/lib/simulator_comunication
+writing list of installed files to '/home/demarco/Mapping2026/SLAM/build/simulator_comunication/install.log'
